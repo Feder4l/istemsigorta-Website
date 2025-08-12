@@ -1,6 +1,6 @@
 # 🛡️ İstem Sigorta | Kurumsal Sigorta Web Sitesi
 
-![İstem Sigorta Logo](https://www.istemsigorta.com/static/image/logo.png)
+![İstem Sigorta Logo](img/logo.jpg)
 
 İstem Sigorta, müşterilerine bireysel ve kurumsal sigorta çözümleri sunan yenilikçi bir sigorta firmasıdır.  
 Bu proje, firmanın dijital varlığını güçlendirmek, **modern, kullanıcı dostu ve mobil uyumlu bir web sitesi** ile müşteri deneyimini en üst seviyeye çıkarmak amacıyla geliştirilmiştir.
