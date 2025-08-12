@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim | İstem Sigorta</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <a href="https://wa.me/905345244687" class="whatsapp-float" target="_blank" aria-label="WhatsApp'a yaz">
+      <img src="img/footer/social/02.svg" alt="WhatsApp" />
+      <span>Bize Ulaşın!</span>
+    </a>
+
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container _container">
+          <a href="index.html" class="header__logo">
+            <img src="img/logo.jpg" alt="İstem Sigorta Logosu" class="header__logo-img" style="width: 200px;">
+          </a>
+          <div class="menu__icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="index.html">Anasayfa</a></li>
+              <li class="menu__item"><a href="hakkimizda.html">Hakkımızda</a></li>
+              <li class="menu__item"><a href="kurumsal.html">Kurumsal</a></li>
+              <li class="menu__item"><a href="hizmetler.html">Hizmetler</a></li>
+              <li class="menu__item"><a href="contact.html">İletişim</a></li>
+              <li class="menu__item"><a href="teklif-al.html">Teklif Al</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" style="background: url('img/contact-hero.jpg') center/cover no-repeat; padding: 100px 0; color: white; text-align: center;">
+          <div class="_container animate-on-load">
+            <h1 style="color: black;">İletişime Geçin</h1>
+            <p style="color: rgb(105, 104, 103);">Her türlü soru, öneri ve destek talepleriniz için bize ulaşabilirsiniz.</p>
+          </div>
+        </section>
+
+        <section style="padding: 60px 20px;">
+          <div class="_container animate-on-load animate-delay-3">
+            <form id="contact-form" style="max-width: 600px; margin: 0 auto; background: #f9f9f9; padding: 30px; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.05);">
+              <div style="margin-bottom: 20px;">
+                <label for="name">Adınız Soyadınız</label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 12px; margin-top: 5px; border: 1px solid #ccc; border-radius: 6px;" />
+              </div>
+              <div style="margin-bottom: 20px;">
+                <label for="email">E-posta Adresiniz</label>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 12px; margin-top: 5px; border: 1px solid #ccc; border-radius: 6px;" />
+              </div>
+              <div style="margin-bottom: 20px;">
+                <label for="message">Mesajınız</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  style="
+                    width: 100%;
+                    padding: 12px;
+                    border: 1px solid #ccc;
+                    border-radius: 6px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 16px;
+                    color: #333;
+                    line-height: 1.6;
+                  "
+                ></textarea>              </div>
+              <button type="submit" style="padding: 12px 30px; background-color: #007bff; color: #fff; border: none; border-radius: 6px; cursor: pointer;">
+                Gönder
+              </button>
+            </form>
+
+            <!-- Başarı Mesajı -->
+            <div id="success-message" style="
+              display: none;
+              background-color: #4BB543;
+              color: white;
+              padding: 15px;
+              margin-top: 20px;
+              max-width: 600px;
+              margin-left: auto;
+              margin-right: auto;
+              text-align: center;
+              border-radius: 8px;
+              font-weight: bold;
+            ">
+              Mesajınız başarıyla gönderildi.
+            </div>
+          </div>
+        </section>
+      </main>
+            <footer class="footer">
+  <div class="footer__top">
+    <div class="footer__main _container">
+      <div class="footer__row" >
+
+        <!-- 1. Kolon: İstem Sigorta -->
+        <div class="footer__column" >
+          <div class="footer__label">İstem Sigorta</div>
+          <nav class="footer__menu menu-footer">
+            <ul class="menu-footer__list">
+              <li class="menu-footer__item"><a href="index.html" class="menu-footer__link">Anasayfa</a></li>
+              <li class="menu-footer__item"><a href="hakkimizda.html" class="menu-footer__link">Hakkımızda</a></li>
+              <li class="menu-footer__item"><a href="kurumsal.html" class="menu-footer__link">Kurumsal</a></li>
+              <li class="menu-footer__item"><a href="hizmetler.html" class="menu-footer__link">Hizmetler</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer__column">
+          <div class="footer__label">Hizmetler</div>
+          <nav class="footer__menu menu-footer">
+            <ul class="menu-footer__list">
+              <li class="menu-footer__item"><a href="hizmetler.html" class="menu-footer__link">Tüm Hizmetler</a></li>
+              <li class="menu-footer__item"><a href="#" class="menu-footer__link">Kasko Sigortası</a></li>
+              <li class="menu-footer__item"><a href="#" class="menu-footer__link">Trafik Sigortası</a></li>
+              <li class="menu-footer__item"><a href="#" class="menu-footer__link">DASK, Sağlık Sigortası</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- 3. Kolon: Destek -->
+        <div class="footer__column">
+          <div class="footer__label">Destek</div>
+          <nav class="footer__menu menu-footer">
+            <ul class="menu-footer__list">
+              <li class="menu-footer__item"><a href="contact.html" class="menu-footer__link">İletişim</a></li>
+              <li class="menu-footer__item"><a href="teklif-al.html" class="menu-footer__link">Teklif Al</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- 4. Kolon: Bize Ulaşın -->
+        <div class="footer__column">
+          <div class="footer__label">Bize Ulaşın</div>
+          <div class="footer__contacts contacts-footer">
+            <a href="tel:+902166063925" class="contacts-footer__item contacts-footer__item_phone">0 (216) 606 39 25<br>0 (850) 308 66 87 <br>0 (534) 524 46 87</a>
+            <a href="https://maps.google.com" target="_blank" class="contacts-footer__item contacts-footer__item_map">Mehmet Akif, Papatya Sk. No:55 D:1, 34150 Çekmeköy/İstanbul</a>
+            <a href="mailto:istemsigorta25@gmail.com" class="contacts-footer__item contacts-footer__item_email">istemsigorta25@gmail.com</a>
+          </div>
+        </div>
+
+        <!-- 5. Kolon: Harita -->
+        <div class="footer__column" style="flex: 1; min-width: 220px;">
+          <div class="footer__label">Harita</div>
+          <div class="footer__map">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.1849424961238!2d29.187583676425483!3d41.0212096186279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cacf798f667773%3A0xae53638020f328d5!2zTWV0YXRha2FzICYgTWV0YUZpbmFucyBEYW7EscWfbWFubMSxaw!5e0!3m2!1str!2str!4v1747130636216!5m2!1str!2str" 
+              width="100%" 
+              height="180" 
+              style="border:0; border-radius:10px;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+ <div class="footer__buttom" style="margin-top: 30px;">
+    <div class="footer__container _container" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+      <div class="footer__copy">© 2025 İstem Sigorta. Tüm hakları saklıdır. Selçuk Gündüç tarafından geliştirilmiştir.</div>
+      <div class="footer__social social" style="display: flex; gap: 10px;">
+        <a href="https://instagram.com/istem.sigorta" target="_blank" aria-label="Instagram"><img src="img/footer/social/01.svg" alt="social" /></a>
+        <a href="https://wa.me/905345244687" target="_blank" aria-label="WhatsApp"><img src="img/footer/social/02.svg" alt="social" /></a>
+        <a href="https://maps.app.goo.gl/qFJc2yuATPEmYESC9" target="_blank" aria-label="GoogleMaps"><img src="img/footer/social/03.svg" alt="social" /></a>
+      </div>
+    </div>
+  </div>
+            </footer>
+
+    </div>
+
+    <!-- Menü ve Form Scriptleri -->
+    <script>
+      // Menü açma/kapatma
+      const menuIcon = document.querySelector('.menu__icon');
+      const menuList = document.querySelector('.menu__list');
+
+      menuIcon.addEventListener('click', function () {
+        menuIcon.classList.toggle('active');
+        menuList.classList.toggle('active');
+      });
+
+      document.addEventListener('click', function (e) {
+        const isClickInsideMenu = menuList.contains(e.target) || menuIcon.contains(e.target);
+        if (!isClickInsideMenu) {
+          menuIcon.classList.remove('active');
+          menuList.classList.remove('active');
+        }
+      });
+
+      window.addEventListener('resize', function () {
+        if (window.innerWidth > 768) {
+          menuIcon.classList.remove('active');
+          menuList.classList.remove('active');
+        }
+      });
+
+      // Form gönderme ve başarı mesajı
+      document.getElementById('contact-form').addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        const form = e.target;
+        const data = new FormData(form);
+
+        try {
+          const response = await fetch('https://formspree.io/f/meoggvoj', {
+            method: 'POST',
+            body: data,
+            headers: {
+              'Accept': 'application/json'
+            }
+          });
+
+          if (response.ok) {
+            const successMessage = document.getElementById('success-message');
+            successMessage.style.display = 'block';
+            form.reset();
+
+            setTimeout(() => {
+              successMessage.style.display = 'none';
+            }, 3000);
+          } else {
+            alert('Bir hata oluştu. Lütfen tekrar deneyin.');
+          }
+        } catch (error) {
+          alert('Gönderim sırasında bir hata oluştu.');
+        }
+      });
+    </script>
+  </body>
+</html>
