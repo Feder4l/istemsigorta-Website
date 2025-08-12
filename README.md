@@ -29,13 +29,19 @@ Kullanıcıların aradıkları sigorta hizmetini kolayca bulabilecekleri, aynı 
 ## 📷 Ekran Görüntüleri
 
 ### Anasayfa
-<img src="screenshots/homepage.png" alt="Anasayfa" width="800">
+<img src="screenshots/anasayfa.png" alt="Anasayfa" width="600">
 
 ### Hizmetler Sayfası
-<img src="screenshots/services.png" alt="Hizmetler" width="800">
+<img src="screenshots/hizmetler.png" alt="Hizmetler" width="600">
 
 ### İletişim Sayfası
-<img src="screenshots/contact.png" alt="İletişim" width="800">
+<img src="screenshots/iletişim.png" alt="İletişim" width="600">
+
+### Teklif Al Sayfası
+<img src="screenshots/teklif.png" alt="İletişim" width="600">
+
+### Mobil Görünüm
+<img src="screenshots/mobil.png" alt="İletişim" width="400">
 
 ---
 
@@ -55,7 +61,7 @@ Kullanıcıların aradıkları sigorta hizmetini kolayca bulabilecekleri, aynı 
 **İstem Sigorta**  
 📍 İstanbul, Türkiye  
 🌐 [istemsigorta.com](https://www.istemsigorta.com)  
-✉️ istemsigorta25@gmail.com  
+✉️ selcuk.gndc@gmail.com
 
 ---
 
